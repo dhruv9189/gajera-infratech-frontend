@@ -102,7 +102,7 @@ export default function Features() {
                 className="mb-8 md:mb-3.75 text-4xl font-bold text-midnight_text dark:text-white"
                 data-aos="fade-left"
               >
-                Why People Choose Gajera Group
+                Why People Choose Gajera Brothers
               </p>
               {pageData.map((feature) => (
                 <div

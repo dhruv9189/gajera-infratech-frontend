@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Gajera Group</title>
+        <title>Gajera Brothers</title>
       </head>
       <body className={`${dmsans.className}`}>
       <AppContextProvider>

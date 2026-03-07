@@ -10,7 +10,7 @@ import DiscoverProperties from './components/home/property-option';
 import Listing from './components/home/property-list';
 import Testimonials from './components/home/testimonial';
 export const metadata: Metadata = {
-  title: "Gajera Group",
+  title: "Gajera Brothers",
 };
 
 export default function Home() {

@@ -5,7 +5,7 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Blog | Gajera Group",
+    title: "Blog | Gajera Brothers",
 };
 
 const Blog = () => {

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Sign In | Gajera Group",
+    "Sign In | Gajera Brothers",
 };
 
 const SigninPage = () => {

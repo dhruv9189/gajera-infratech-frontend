@@ -13,7 +13,7 @@ import StatsRow from "@/app/components/about/stats-row";
 import HomeTestimonials from "@/app/components/home/testimonial";
 
 export const metadata: Metadata = {
-  title: "About | Gajera Group",
+  title: "About | Gajera Brothers",
 };
 
 const page = () => {
@@ -26,7 +26,7 @@ const page = () => {
       {/* About introduction */}
       <AboutIntro
         headline="Who we are"
-        text="Gajera Group is a multi-disciplinary organization focused on sustainable development, community growth and responsible business. Since our founding, we blend tradition with innovation to deliver long-term value to stakeholders and the communities we serve."
+        text="Founded in 2019, Gajera Brothers is a professionally managed, diversified enterprise based in India, delivering reliable solutions in construction, aluminium window and façade systems, and sustainable water management manufacturing. With a strong foundation in engineering and execution excellence, we support private, commercial, and government sector projects with a focus on quality, compliance, and long-term performance."
         breadcrumbLinks={breadcrumbLinks}
       />
 
@@ -44,36 +44,39 @@ const page = () => {
       {/* Key milestones / history */}
       <HistoryTimeline
         events={[
-          { year: 1995, title: "Founded", desc: "Established with a focus on local development." },
-          { year: 2005, title: "Expansion", desc: "Entered new markets and diversified services." },
-          { year: 2018, title: "Sustainability Initiative", desc: "Launched long-term environmental programs." },
-          { year: 2024, title: "Digital Transformation", desc: "Adopted modern platforms and scaled operations." },
+          { year: 2019, title: "Foundation", desc: "Establishment of Gajera Brothers. Entry into private residential construction" },
+          { year: 2020, title: "Expansion", desc: "Execution of commercial construction projects. Entry into government construction works with strengthened compliance processes" },
+          { year: 2021, title: "Aluminium Solutions Division", desc: "Launch of aluminium window and façade systems. Successful delivery for villas and bungalow projects" },
+          { year: 2022, title: "High-Rise Capability", desc: "Expansion into aluminium solutions for high-rise towers. Enhancement of design, engineering, and execution expertise" },
+          { year: 2023, title: "Sustainability Initiative", desc: "Entry into water management and water harvesting manufacturing. Setup of in-house shop floor for FRP membrane housing components" },
+          { year: 2024, title: "Product Range Expansion", desc: "Manufacturing of a comprehensive range of FRP membrane housing components and spare parts. Supply across multiple sizes and configurations." },
+          { year: 2025, title: "Integrated Operations", desc: "Active presence across construction, aluminium systems, and sustainability sectors. Focus on long-term partnerships, innovation, and responsible development" },
         ]}
       />
 
       {/* Quick stats */}
       <StatsRow
         stats={[
-          { label: "Years", value: 30 },
-          { label: "Projects", value: 120 },
-          { label: "Employees", value: 450 },
-          { label: "Locations", value: 8 },
+          { label: "Years", value: 5 },
+          { label: "Projects", value: 20 },
+          { label: "Employees", value: 50 },
+          { label: "Locations", value: 2 },
         ]}
       />
 
       {/* Team */}
       <TeamGrid
         members={[
-          { name: "Mr. Gajera", role: "Founder & Chairman", photo: "/images/team/gajera.jpg" },
-          { name: "S. Patel", role: "CEO", photo: "/images/team/ceo.jpg" },
-          { name: "A. Mehta", role: "Head of Operations", photo: "/images/team/ops.jpg" },
+          { name: "Mr. Hiren Gajera", role: "Founder & Chairman", photo: "/images/team/gajera.jpg" },
+          // { name: "S. Patel", role: "CEO", photo: "/images/team/ceo.jpg" },
+          // { name: "A. Mehta", role: "Head of Operations", photo: "/images/team/ops.jpg" },
         ]}
       />
 
       {/* Use existing home testimonial component */}
       <HomeTestimonials
         // quotes={[
-        //   { text: "Working with Gajera Group transformed our community project.", author: "Community Leader" },
+        //   { text: "Working with Gajera Brothers transformed our community project.", author: "Community Leader" },
         //   { text: "Professional, reliable, and mission-driven.", author: "Partner Organization" },
         // ]}
       />

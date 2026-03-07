@@ -13,17 +13,17 @@ const Location = () => {
             <div className="">
                 <div className="grid md:grid-cols-6 lg:grid-cols-9 grid-cols-1 gap-7 border-b border-solid border-white border-opacity-50 pb-11">
                     <div className="col-span-3">
-                        <h2 className="text-white text-4xl leading-[1.2] font-bold">Ahemdabad Head Office</h2>
+                        <h2 className="text-white text-4xl leading-[1.2] font-bold">Head Office</h2>
                     </div>
                     <div className="col-span-3">
-                        <p className="text-xl text-IceBlue font-normal max-w-64 text-white text-opacity-50">Amarjawan Circle, Nikol 382350</p>
+                        <p className="text-xl text-IceBlue font-normal max-w-64 text-white text-opacity-50">319, ADISHWAR GOLD, OPP. TORRENT SUBSTATION NR. GALAXY BUSINESS CENTRE, Sardar Patel Ring Rd, Nikol, Ahmedabad, Gujarat 380049</p>
                     </div>
                     <div className="col-span-3">
-                        <Link href="mailto:headoffice@property.com" className="text-xl text-white font-medium underline">headoffice@gajeragroup.com</Link>
-                        <Link href="tel:731-621-5503" className="text-xl text-white text-opacity-80 flex items-center gap-2 hover:text-opacity-100 w-fit"><span className="text-white !text-opacity-40">Call</span>987-678-5555</Link>
+                        <Link href="mailto:office@gajerabrothers.com" className="text-xl text-white font-medium underline">office@gajerabrothers.com</Link>
+                        <Link href="tel:6351704088" className="text-xl text-white text-opacity-80 flex items-center gap-2 hover:text-opacity-100 w-fit"><span className="text-white !text-opacity-40">Call</span>6351704088</Link>
                     </div>
                 </div>
-                <div className="grid md:grid-cols-6 lg:grid-cols-9 grid-cols-1 gap-7 pt-12">
+                {/* <div className="grid md:grid-cols-6 lg:grid-cols-9 grid-cols-1 gap-7 pt-12">
                     <div className="col-span-3">
                         <h2 className="text-white text-4xl leading-[1.2] font-bold">Gandhinagar Office</h2>
                     </div>
@@ -34,7 +34,7 @@ const Location = () => {
                         <Link href="mailto:Office@property.com" className="text-xl text-white font-medium underline">supprt@gajeragroup.com</Link>
                         <Link href="tel:731-235-7993" className="text-xl text-white text-opacity-80 text-IceBlue flex items-center gap-2 hover:text-opacity-100 w-fit"><span className="text-white !text-opacity-40">Call</span>798-235-7993</Link>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
       </section>

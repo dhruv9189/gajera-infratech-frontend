@@ -29,7 +29,7 @@ const Footer = () => {
                 Address
               </h4>
               <p className="mb-6 text-gray text-base">
-                Gajera Associates, 2nd Floor, Gajera Arcade, Nr. Rajpath Club, S.G. Highway, Ahmedabad - 380059.
+                319, ADISHWAR GOLD, OPP. TORRENT SUBSTATION NR. GALAXY BUSINESS CENTRE, Sardar Patel Ring Rd, Nikol, Ahmedabad, Gujarat 380049
               </p>
               <div className="flex items-center gap-2">
                 <a
@@ -151,11 +151,11 @@ const Footer = () => {
             <div className="flex lg:flex-nowrap flex-wrap lg:flex-row lg:gap-11 gap-4 text-base sm:text-lg md:text-xl text-black text-opacity-50">
               <p className="text-white">
                 Phone :
-                <Link href="#" className="text-gray hover:text-white"> +91 8899556688</Link>
+                <Link href="tel:6351704088" className="text-gray hover:text-white"> +91 6351704088</Link>
               </p>
               <p className="text-white">
                 Email :
-                <Link href="#" className="text-gray hover:text-white"> info@gajeragroups.com</Link>
+                <Link href="mailto:info@gajerabrothers.com" className="text-gray hover:text-white"> info@gajerabrothers.com</Link>
               </p>
             </div>
           </div>
@@ -165,7 +165,6 @@ const Footer = () => {
               <input
                 type="text"
                 className="py-3 dark:bg-darkmode dark:text-gray !rounded-r-none border border-transparent dark:border-dark_border dark:focus:border-primary focus-visible:outline-none rounded-l-lg px-3 w-full sm:w-auto "
-                placeholder="Email address"
               />
               <button className="py-2 px-5 sm:px-9 bg-primary text-base text-white rounded-r-lg hover:bg-blue-700">
                 Subscribe
