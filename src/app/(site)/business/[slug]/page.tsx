@@ -199,7 +199,31 @@ export default async function Details({ params }: Props) {
                     projectTypes={item?.project_types || []}
                 />
 
-<div> About Us</div>
+
+                  {/* <Location /> */}
+
+
+                {/* Projects list with filter */}
+                {/* {item?.project_details?.length > 0 && (
+                    <div className="mt-8">
+                        <h3 className="text-2xl text-midnight_text dark:text-white font-bold mb-4">Our Projects</h3>
+                        <ProjectFilters />
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
+                            {item.project_details.map((p: any, i: number) => (
+                                <ProjectCard key={i} project={p} />
+                            ))}
+                        </div>
+                    </div>
+                )} */}
+
+                {/* Discover properties (existing component) */}
+                {/* <div className="mt-12">
+                    <DiscoverProperties />
+                </div> */}
+            </section>
+
+            <section>
+                <div> About Us</div>
 
 
  <AboutIntro
@@ -244,26 +268,6 @@ export default async function Details({ params }: Props) {
             {/* Contact Form */}
              <ContactInfo />
                   <ContactForm />
-                  {/* <Location /> */}
-
-
-                {/* Projects list with filter */}
-                {/* {item?.project_details?.length > 0 && (
-                    <div className="mt-8">
-                        <h3 className="text-2xl text-midnight_text dark:text-white font-bold mb-4">Our Projects</h3>
-                        <ProjectFilters />
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
-                            {item.project_details.map((p: any, i: number) => (
-                                <ProjectCard key={i} project={p} />
-                            ))}
-                        </div>
-                    </div>
-                )} */}
-
-                {/* Discover properties (existing component) */}
-                {/* <div className="mt-12">
-                    <DiscoverProperties />
-                </div> */}
             </section>
         </div>
     );
